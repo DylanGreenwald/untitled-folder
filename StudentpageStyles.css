@@ -1,0 +1,267 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 70px;
+  padding-right: 50px;
+  width: 500px;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  flex-direction: column;
+}
+
+.sociallinks {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section {
+  display: flex;
+}
+
+.text {
+  line-height: 0.01;
+}
+
+.gallery-container {
+  padding-top: 120vh;
+  padding-bottom: 150px;
+}
+
+.slideshow {
+  background: url("https://wallpapercave.com/wp/EacaKU1.jpg");
+  background-size: cover;
+  align: center;
+  border-bottom: 50px solid grey;
+  height: 75vh;
+  width: 65vw;
+  border: 20px solid white;
+  padding-bottom: 200px;
+}
+
+.profile {
+  width: 22vh;
+  align-self: flex-end;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+}
+
+.student-info {
+  display: flex;
+  background: white;
+  padding: 15px;
+  width: 27vw;
+  height: 25vh;
+  float: right;
+}
+.leftbtn {
+  float: left;
+  width: 4%;
+}
+
+.rightbtn {
+  width: 4%;
+  float: right;
+}
+
+.twitter3 {
+  height: 20px;
+}
+
+.about {
+  background: white;
+  width: 22vw;
+}
+
+.flex-item {
+  width: 22vw;
+  height: auto;
+}
+
+.twitter {
+  padding: 0px 10px;
+  width: 50px;
+  height: 40px;
+}
+
+.twitter2 {
+  float: right;
+  padding: 0px 10px;
+  width: 50px;
+  height: 50px;
+  overflow: auto;
+}
+
+li {
+  width: 20vw;
+  height: 20vh;
+  margin: 5px;
+  background: #4c4c4c;
+}
+
+.flex-container {
+  border: 5px solid white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 140px;
+  grid-column-gap: 25px;
+  margin-bottom: 8.2vw;
+}
+
+.galleryimg {
+  display: flex;
+}
+
+a:link {
+  color: black;
+}
+
+.bodythirds {
+  display: flex;
+  bottom-border: 50px solid darkgrey;
+  background-color: grey;
+  border: 5px solid white;
+  width: 60vw;
+  height: 157vh;
+  text-align: center;
+}
+
+.mySlides {
+  border-bottom: solid 50px;
+  border-color: #4c4c4c;
+  height: -40px;
+  width: 80vw;
+}
+
+.oneline {
+  display: inline-block;
+  float: right;
+  background: white;
+  width: 30vw;
+  height: -20vh;
+}
+
+body {
+  background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  height: 300px;
+  width: 100vw;
+}
+
+.galleryimg {
+  width: 100%;
+}
+
+.footerbanner {
+  text-align: center;
+  background-image: url("");
+  background-color: grey;
+  background-blend-mode: multiply;
+  margin: 0;
+  padding: px 0vw;
+  width: 98vw;
+  box-shadow: 0px 3px 10px grey;
+  text-align: center;
+  padding: 5px;
+}
+
+.footban {
+  padding: 10px;
+  width: 94vw;
+}
+
+.gallery {
+  width: 20%;
+  margin: 2%;
+}
+
+footer {
+  width: 96vw;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: lightgrey;
+}
+
+.blended {
+  background-image: url(https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  background-color: #d6d6c2;
+  background-blend-mode: multiply;
+}
+
+.footerthirds {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 25%;
+  margin: 4%;
+}
+
+.footergallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 300px;
+  align-items: center;
+}
+
+student {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  display: flex;
+}
+
+.smaller {
+  height: 300px;
+  width: 300px;
+  justify-content: left;
+}
+
+.mini3 {
+  height: 50px;
+  width: 50px;
+  display: flex-row left;
+}
+
+.vbtn {
+  margin-left: 39.6vw;
+  padding-bottom: 5px;
+}
+
+.btn {
+  text-align: center;
+  background: url("https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true");
+  padding: 10px 100px;
+  background-blend-mode: multiply;
+  background-color: lightgrey;
+  width: 100px;
+  heighth: 40px;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.view {
+  float: center;
+  blend: multiply;
+}
